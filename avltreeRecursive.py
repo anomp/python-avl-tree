@@ -169,21 +169,9 @@ class AVLtree(object):
 
 
 myavl = AVLtree()
-#myavl.rootNode = Node(150,None) #initialize the root node
 for i in myavllist:
     myavl.insertNode(i)
 myavl.accessNode(600)
 
-# myavl2 = AVLtree()
-# myavl2.rootNode = Node(3,None)
-# myavl2.insertNode(1)
-# myavl2.insertNode(2)
-# #myavl2.reBalance(myavl2.rootNode)
-# myavl2.accessNode(1)
-"""
-sources
-http://interactivepython.org/runestone/static/pythonds/Trees/AVLTreeImplementation.html
-https://www.cs.usfca.edu/~galles/visualization/AVLtree.html
-http://www.cise.ufl.edu/~nemo/cop3530/AVL-Tree-Rotations.pdf
-"""
+
 
